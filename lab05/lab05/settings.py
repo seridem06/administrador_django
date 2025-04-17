@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    #'jazzmin',
     'admin_interface',
     'colorfield',  # Requerido para personalizar colores
     'tienda.apps.TiendaConfig',
@@ -40,7 +41,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
 ]
+#JAZZMIN_SETTINGS = {
+ #   "theme": "dark",
+    # Otras configuraciones opcionales...
+#}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
